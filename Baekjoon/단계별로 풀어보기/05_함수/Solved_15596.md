@@ -27,3 +27,16 @@ public class Solved_15596 {
     }
 }
 ```
+다시 확인해보니 내가 문제를 잘못 이해한 거였다. 함수만 작성하면 되는 문제였다. 그래서 다시 풀어보았다.
+```java
+public class Test {
+    long sum(int[] a) {
+        long ans = 0;
+        for(int i=0; i<a.length; i++){
+            ans += a[i];
+        }
+        return ans;
+    }
+}
+
+```
